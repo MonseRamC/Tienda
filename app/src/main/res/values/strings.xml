@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Tienda</string>
+    <string name="text_login">Login</string>
+    <string name="text_login_tag">Bienvenido de vuelta, ingrese sus datos para continuar</string>
+    <string name="e_mail">Email</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Ingresar</string>
+
+
+    <string name="text_landing">Gerente de la tienda</string>
+    <string name="text_landing_tag">Administrador de Productos</string>
+    <string name="text_registrar_landing">Registrar</string>
+    <string name="text_login_landing">Login</string>
+
+    <string name="text_registro">Registrarse</string>
+    <string name="text_registro_tag">Por favor registrese para continuar</string>
+    <string name="title_activity_home_admin_menu">HomeAdminMenu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Admin</string>
+    <string name="nav_header_subtitle">Jorge Yasar Ugalde</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

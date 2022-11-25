@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home_home"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Agregar Admin" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Agregar Producto" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Ver Productos" />
+        <item
+            android:id="@+id/lectorQRFragment"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Vista producto" />
+    </group>
+<!--
+    <item android:title="Sensores">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_hubicacion"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="Hubicacion" />
+                <item
+                    android:id="@+id/sensorCamara"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="Camara" />
+                <item
+                    android:id="@+id/sensorTemperaturaFragment"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="Temperatura" />
+            </group>
+        </menu>
+    </item>
+-->
+    <item android:title="QR Code">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/escritorQRFragment"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="Escaner QR" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Sesion">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/endFragment"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="Cerrar Sesion" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

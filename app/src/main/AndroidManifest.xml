@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="company.project">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-feature android:name="android.hardware.camera" android:required="true"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Proveedores">
+        <activity
+            android:name=".HomeUserMenu"
+            android:label="Home User"
+            android:theme="@style/Theme.AppCompat.Proveedores.NoActionBar">
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>-->
+        </activity>
+        <activity
+            android:name=".HomeAdminMenu"
+            android:label="@string/title_activity_home_admin_menu"
+            android:theme="@style/Theme.AppCompat.Proveedores.NoActionBar">
+
+        </activity>
+        <activity android:name=".ListaProveedores" />
+        <activity android:name=".Landing"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AddProducto" />
+        <activity android:name=".HomeUser" />
+        <activity android:name=".Login"></activity>
+        <activity android:name=".Registro" />
+        <activity android:name=".HomeAdmin" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home_home">
+
+    <fragment
+        android:id="@+id/nav_home_home"
+        android:name="company.project.HomeHomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home_home" />
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="company.project.ui.add_admin.AddAdminFragment"
+        android:label="Home Admin"
+        tools:layout="@layout/fragment_add_admin" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="company.project.ui.add_producto.AddProductoFragment"
+        android:label="Home Admin"
+        tools:layout="@layout/fragment_add_producto" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="company.project.ui.ver_productos.VerProductosFragment"
+        android:label="Home Admin"
+        tools:layout="@layout/fragment_ver_productos" />
+    <fragment
+        android:id="@+id/nav_hubicacion"
+        android:name="company.project.ui.sensor_hubicacion.SensorHubicacionFragment"
+        android:label="Sensor Hubicacion"
+        tools:layout="@layout/fragment_sensor_hubicacion"/>
+    <fragment
+        android:id="@+id/sensorCamara"
+        android:name="company.project.SensorCamaraFragment"
+        android:label="Sensor Camara"
+        tools:layout="@layout/fragment_sensor_camara" />
+    <fragment
+        android:id="@+id/sensorTemperaturaFragment"
+        android:name="company.project.SensorTemperaturaFragment"
+        android:label="Sensor Temperatura"
+        tools:layout="@layout/fragment_sensor_temperatura" />
+    <fragment
+        android:id="@+id/lectorQRFragment"
+        android:name="company.project.LectorQRFragment"
+        android:label="Vista Proveedor"
+        tools:layout="@layout/fragment_lector_q_r" />
+    <fragment
+        android:id="@+id/escritorQRFragment"
+        android:name="company.project.EscritorQRFragment"
+        android:label="Generador QR"
+        tools:layout="@layout/fragment_escritor_q_r" />
+    <fragment
+        android:id="@+id/homeHomeFragment"
+        android:name="company.project.HomeHomeFragment"
+        android:label="fragment_home_home"
+        tools:layout="@layout/fragment_home_home" />
+    <fragment
+        android:id="@+id/editarProductoFragment"
+        android:name="company.project.EditarProductoFragment"
+        android:label="Editar Proveedor"
+        tools:layout="@layout/fragment_editar_producto" />
+    <fragment
+        android:id="@+id/endFragment"
+        android:name="company.project.EndFragment"
+        android:label="Cerrar Sesion"
+        tools:layout="@layout/fragment_end" />
+</navigation>

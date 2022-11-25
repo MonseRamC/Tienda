@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.ver_productos.VerProductosFragment">
+
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/latitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Latitude : "
+            android:textSize="20sp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="32dp"
+            android:layout_alignParentTop="true"/>
+
+        <TextView
+            android:id="@+id/longitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Longitude : "
+            android:layout_below="@id/latitude"
+            android:textSize="20sp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="32dp"/>
+
+        <TextView
+            android:id="@+id/hubicacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hubicacion : "
+            android:layout_below="@id/longitude"
+            android:textSize="20sp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="32dp"/>
+
+        <Button
+            android:id="@+id/btn_hubicacion"
+            android:layout_width="471dp"
+            android:layout_height="62dp"
+            android:layout_below="@id/hubicacion"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            android:text="Obtener Hubicacion" />
+
+        <Button
+            android:id="@+id/btn_set_hubicacion"
+            android:layout_width="471dp"
+            android:layout_height="62dp"
+            android:layout_below="@id/btn_hubicacion"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            android:text="Elegir Hubicacion" />
+
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
